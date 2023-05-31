@@ -14,7 +14,7 @@ export default function Laptop({ data }) {
       {showDetails && (
         <>
           <Typography>brand: {data.brand}</Typography>
-          <Typography>weight: "{data.weight}</Typography>
+          <Typography>weight: {data.weight}</Typography>
         </>
       )}
       <Button variant="contained" onClick={toggleDetails}>
